@@ -13,3 +13,14 @@ Esta aplicación web interactiva permite explorar un conjunto de datos de anunci
 - **Streamlit** - Framework para aplicaciones web
 - **Plotly** - Biblioteca para gráficos interactivos
 - **Pandas** - Manipulación y análisis de datos
+
+## Despliegue en Render
+Esta aplicación está desplegada en Render. Para desplegar tu propia versión:
+
+- Crea una cuenta en render.com y conecta tu cuenta de GitHub
+
+- Crea un nuevo "Web Service" desde tu repositorio de GitHub
+
+- Configura las siguientes opciones:
+Build Command: pip install -r requirements.txt
+Start Command: streamlit run app.py
